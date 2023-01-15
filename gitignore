@@ -6,10 +6,13 @@ logs
 node_modules
 
 # Configuration files
-.env
+config.js
 
 # Build files
 build
 
 # Test files
 test
+
+#env
+.env
