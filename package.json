@@ -5,16 +5,22 @@
   "main": "server.js",
   "scripts": {
     "test": "jest --watchAll",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dumplog": "jest --log-level=debug"
   },
   "author": "Shai Perednik",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "request": "^2.88.0",
-    "dotenv": "^8.2.0"
+    "request": "^2.88.0"
   },
   "devDependencies": {
-    "jest": "^26.1.0"
+    "dotenv": "^16.0.3",
+    "jest": "^29.3.1",
+    "supertest": "^6.3.3"
+  },
+  "directories": {
+    "test": "test"
   }
 }
