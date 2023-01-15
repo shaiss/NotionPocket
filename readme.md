@@ -1,8 +1,8 @@
-# **Notion Pocket**
+# Notion Pocket
 
 A web app that queries the Pocket APIs, pulls the latest saves, and then adds them to a Notion database item using the Notion.so APIs.
 
-## **Table of Contents**
+## Table of Contents
 
 - **[Getting Started](https://chat.openai.com/chat/57237850-906d-40e5-aacf-670d26655837#getting-started)**
     - **[Prerequisites](https://chat.openai.com/chat/57237850-906d-40e5-aacf-670d26655837#prerequisites)**
@@ -13,18 +13,18 @@ A web app that queries the Pocket APIs, pulls the latest saves, and then adds th
 - **[Attributions](https://chat.openai.com/chat/57237850-906d-40e5-aacf-670d26655837#attributions)**
 - **[To Do](https://chat.openai.com/chat/57237850-906d-40e5-aacf-670d26655837#to-do)**
 
-## **Getting Started**
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### **Prerequisites**
+### Prerequisites
 
 - Node.js v18.12.1 or later
 - npm
 - A Pocket account and API key
 - A Notion account and API key
 
-### **Installation**
+### Installation
 
 1. Clone the repository
 
@@ -55,18 +55,18 @@ Copy code
 npm start
 ```
 
-## **Usage**
+## Usage
 
 The app has two routes:
 
 - **`/pocket`**: GET request that queries the Pocket API for the latest saves and returns them in a JSON format.
 - **`/notion`**: POST request that takes a JSON object containing a title and a url and adds it to a Notion database.
 
-## **Architecture**
+## Architecture
 
 The app is built with Node.js and uses the Express framework for routing. The Pocket and Notion APIs are accessed using the **`request`** package. Data validation is done using express-validator.
 
-## **Testing**
+## Testing
 
 Tests are written using Jest and Supertest. To run the tests, use the command:
 
@@ -75,7 +75,7 @@ Copy code
 npm test
 ```
 
-## **Attributions**
+## Attributions
 
 This project would not have been possible without the help and guidance of the OpenAI's GPT-3 powered language model, ChatGPT. ChatGPT assisted me with understanding the requirements and architecture of the application, as well as providing suggestions for implementing the necessary functionality.
 
@@ -87,7 +87,7 @@ Please note that there are still some errors present in the current version of t
 
 Thank you for your interest in this project and we hope you find it useful!
 
-## **Contributing**
+## Contributing
 
 If you're interested in contributing to this project, we'd love to have your help! Here are a few ways you can contribute:
 
