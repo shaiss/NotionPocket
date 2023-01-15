@@ -1,0 +1,20 @@
+{
+  "name": "notionpocket",
+  "version": "0.0.1",
+  "description": " a system to query the Pocket APIs, pull the latest saves, and then add them to a notion database item using the Notion.so APIs",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node server.js"
+  },
+  "author": "Shai Perednik",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
