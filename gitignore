@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules
+
+# Configuration files
+.env
+
+# Build files
+build
+
+# Test files
+test
