@@ -29,21 +29,18 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone the repository
 
 ```
-Copy code
 git clone https://github.com/shaiperednik/NotionPocket.git
 ```
 
 1. Install dependencies
 
 ```
-Copy code
 npm install
 ```
 
 1. Create a **`.env`** file in the root directory and add the following variables:
 
 ```
-Copy code
 POCKET_CONSUMER_KEY=your_pocket_consumer_key
 NOTION_API_KEY=your_notion_api_key
 ```
@@ -51,7 +48,6 @@ NOTION_API_KEY=your_notion_api_key
 1. Start the server
 
 ```
-Copy code
 npm start
 ```
 
@@ -71,7 +67,6 @@ The app is built with Node.js and uses the Express framework for routing. The Po
 Tests are written using Jest and Supertest. To run the tests, use the command:
 
 ```
-Copy code
 npm test
 ```
 
